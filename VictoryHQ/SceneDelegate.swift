@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -16,7 +17,38 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let scene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: scene)
+        
+        
+        let tabController = UITabBarController()
+        let mainController = MainController()
+        let nav1 = UINavigationController(rootViewController: mainController)
+        nav1.navigationBar.setGradientBackground(colors: [.systemPurple, .systemOrange], startPoint: .topLeft, endPoint: .bottomRight)
+        let chatController = ChatController()
+        let nav2 = UINavigationController(rootViewController: chatController)
+        let profileController = ProfileController()
+        let nav3 = UINavigationController(rootViewController: profileController)
+        nav3.navigationBar.setGradientBackground(colors: [.systemPurple, .systemOrange], startPoint: .topLeft, endPoint: .bottomRight)
+        
+        mainController.title = "Feed"
+        mainController.tabBarItem.image = UIImage(systemName: "house")
+        
+      
+        profileController.title = "Profile"
+        profileController.tabBarItem.image = UIImage(systemName: "person")
+        chatController.title = "Chat"
+        chatController.tabBarItem.image = UIImage(systemName: "message")
+        tabController.tabBar.barStyle = .black
+        tabController.tabBar.barTintColor = .lightText
+        nav1.overrideUserInterfaceStyle = .light
+        nav3.overrideUserInterfaceStyle = .light
+        tabController.setViewControllers([nav1, nav3], animated: false)
+        tabController.overrideUserInterfaceStyle = .light
+        let controller = LoginController()
+        let nav = UINavigationController(rootViewController: LoginController())
+        window?.rootViewController = tabController
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

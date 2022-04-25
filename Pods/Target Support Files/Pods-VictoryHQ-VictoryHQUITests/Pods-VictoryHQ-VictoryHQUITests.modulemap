@@ -1,0 +1,6 @@
+framework module Pods_VictoryHQ_VictoryHQUITests {
+  umbrella header "Pods-VictoryHQ-VictoryHQUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

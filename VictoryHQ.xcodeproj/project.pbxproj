@@ -7,15 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3102F71D278A2AA700E2DF3D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F71C278A2AA700E2DF3D /* CustomTextField.swift */; };
+		3102F720278A313700E2DF3D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F71F278A313700E2DF3D /* AuthService.swift */; };
+		3102F722278A322800E2DF3D /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F721278A322800E2DF3D /* RegistrationViewModel.swift */; };
+		3102F724278A588D00E2DF3D /* ProfileViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F723278A588D00E2DF3D /* ProfileViewHeader.swift */; };
+		3102F726278A593300E2DF3D /* ProfileFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F725278A593300E2DF3D /* ProfileFooter.swift */; };
+		3102F728278A59A100E2DF3D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F727278A59A100E2DF3D /* MessageCell.swift */; };
+		3102F72A278A59AF00E2DF3D /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F729278A59AF00E2DF3D /* ConversationCell.swift */; };
+		3102F72C278A59E100E2DF3D /* CustomInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F72B278A59E100E2DF3D /* CustomInputAccessoryView.swift */; };
+		3102F72E278A5A0400E2DF3D /* VictoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F72D278A5A0400E2DF3D /* VictoryCell.swift */; };
+		3102F730278A5A1A00E2DF3D /* MainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F72F278A5A1A00E2DF3D /* MainHeaderView.swift */; };
+		3102F732278A5A7900E2DF3D /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F731278A5A7900E2DF3D /* ConversationsController.swift */; };
+		3102F734278BA7C300E2DF3D /* Victory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F733278BA7C300E2DF3D /* Victory.swift */; };
+		3102F77E278FB6A400E2DF3D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F77D278FB6A400E2DF3D /* ProfileViewModel.swift */; };
+		3102F780278FB85500E2DF3D /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F77F278FB85500E2DF3D /* ProfileCell.swift */; };
+		3102F7822790C14500E2DF3D /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F7812790C14500E2DF3D /* EditProfileController.swift */; };
+		3102F78827910CDE00E2DF3D /* ViewProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F78727910CDE00E2DF3D /* ViewProfileController.swift */; };
+		3102F78A27914D5F00E2DF3D /* VictoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F78927914D5F00E2DF3D /* VictoryController.swift */; };
+		3102F78C27914D6700E2DF3D /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F78B27914D6700E2DF3D /* ActivityController.swift */; };
+		3102F78F279206A900E2DF3D /* UserVictoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F78E279206A900E2DF3D /* UserVictoriesController.swift */; };
+		3102F79127920D5200E2DF3D /* VictoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F79027920D5200E2DF3D /* VictoryViewModel.swift */; };
+		3102F793279212A300E2DF3D /* AdminViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F792279212A300E2DF3D /* AdminViewModel.swift */; };
+		3102F795279213E400E2DF3D /* VictoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F794279213E400E2DF3D /* VictoryService.swift */; };
+		3102F797279214D000E2DF3D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F796279214D000E2DF3D /* Constants.swift */; };
+		3102F79927921B7000E2DF3D /* GoalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F79827921B7000E2DF3D /* GoalService.swift */; };
+		3102F79B27921B7D00E2DF3D /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F79A27921B7D00E2DF3D /* UserService.swift */; };
+		3102F7A927962E4800E2DF3D /* NewVictory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F7A827962E4800E2DF3D /* NewVictory.swift */; };
+		3102F7AB27963DD700E2DF3D /* VictoryDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F7AA27963DD700E2DF3D /* VictoryDetailsController.swift */; };
+		3102F7AD27963E0000E2DF3D /* ViewVictoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F7AC27963E0000E2DF3D /* ViewVictoryController.swift */; };
+		3102F7AF279648D600E2DF3D /* fireworks.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3102F7AE2796466100E2DF3D /* fireworks.mp4 */; };
 		31161B252788F3AB00D35115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B242788F3AB00D35115 /* AppDelegate.swift */; };
 		31161B272788F3AB00D35115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B262788F3AB00D35115 /* SceneDelegate.swift */; };
-		31161B292788F3AB00D35115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B282788F3AB00D35115 /* ViewController.swift */; };
 		31161B2C2788F3AB00D35115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31161B2A2788F3AB00D35115 /* Main.storyboard */; };
 		31161B2E2788F3AD00D35115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31161B2D2788F3AD00D35115 /* Assets.xcassets */; };
 		31161B312788F3AD00D35115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31161B2F2788F3AD00D35115 /* LaunchScreen.storyboard */; };
 		31161B3C2788F3AD00D35115 /* VictoryHQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B3B2788F3AD00D35115 /* VictoryHQTests.swift */; };
 		31161B462788F3AD00D35115 /* VictoryHQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B452788F3AD00D35115 /* VictoryHQUITests.swift */; };
 		31161B482788F3AD00D35115 /* VictoryHQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B472788F3AD00D35115 /* VictoryHQUITestsLaunchTests.swift */; };
+		31161B552788F59600D35115 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B542788F59600D35115 /* ChatController.swift */; };
+		31161B572788F5C300D35115 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B562788F5C300D35115 /* ProfileController.swift */; };
+		31161B592788F5CD00D35115 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B582788F5CD00D35115 /* MainController.swift */; };
+		31161B5B2788F5D600D35115 /* NewVictoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B5A2788F5D600D35115 /* NewVictoryController.swift */; };
+		31161B5D2788F62D00D35115 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B5C2788F62D00D35115 /* LoginController.swift */; };
+		31161B5F2788F64000D35115 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B5E2788F64000D35115 /* RegistrationController.swift */; };
+		31161B672788F6AB00D35115 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B662788F6AB00D35115 /* Message.swift */; };
+		31161B692788F6D200D35115 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B682788F6D200D35115 /* User.swift */; };
+		31161B6B2788FBAD00D35115 /* GroupRulesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B6A2788FBAD00D35115 /* GroupRulesController.swift */; };
+		31161B6D278A0AA400D35115 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31161B6C278A0AA400D35115 /* GoogleService-Info.plist */; };
+		31161B6F278A20BA00D35115 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B6E278A20BA00D35115 /* LoginViewModel.swift */; };
+		31161B71278A212700D35115 /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B70278A212700D35115 /* InputContainerView.swift */; };
+		31161B73278A287F00D35115 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31161B72278A287F00D35115 /* Extensions.swift */; };
+		31564CB927B1F67300011730 /* WaitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31564CB827B1F67300011730 /* WaitListView.swift */; };
+		31564CBB27B2A36500011730 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31564CBA27B2A36400011730 /* PushNotificationSender.swift */; };
+		31564CBD27B3826000011730 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31564CBC27B3826000011730 /* PushNotificationManager.swift */; };
+		31564CDE27BF024400011730 /* CelebrateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31564CDD27BF024400011730 /* CelebrateController.swift */; };
+		3195846127AB86AA003A7862 /* RespectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195846027AB86AA003A7862 /* RespectCell.swift */; };
+		3195846327AB86DE003A7862 /* Respect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195846227AB86DE003A7862 /* Respect.swift */; };
+		31AE01F727E957AC000E005B /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE01F627E957AC000E005B /* SettingsController.swift */; };
+		31B1E8AE280CE776008E2B13 /* RequestsEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B1E8AD280CE776008E2B13 /* RequestsEmptyView.swift */; };
+		31C6077627AF593700BE4F98 /* RequestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C6077527AF593700BE4F98 /* RequestsController.swift */; };
+		31C6077827AF599000BE4F98 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C6077727AF599000BE4F98 /* RequestCell.swift */; };
+		3C5BB7B820599A80821C8B48 /* Pods_VictoryHQTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0A155755A4E4F9EDCEEFE0 /* Pods_VictoryHQTests.framework */; };
+		D825024EB1701F4C813C20B4 /* Pods_VictoryHQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB954E40BAD9F3B42E46AB5 /* Pods_VictoryHQ.framework */; };
+		EF375A8CF88C14E1AE6A1814 /* Pods_VictoryHQ_VictoryHQUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49480B51B1BB98BDA97576C2 /* Pods_VictoryHQ_VictoryHQUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +90,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E49BD8CF330E3F4555D13EE /* Pods-VictoryHQ-VictoryHQUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoryHQ-VictoryHQUITests.debug.xcconfig"; path = "Target Support Files/Pods-VictoryHQ-VictoryHQUITests/Pods-VictoryHQ-VictoryHQUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3102F71C278A2AA700E2DF3D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3102F71F278A313700E2DF3D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		3102F721278A322800E2DF3D /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		3102F723278A588D00E2DF3D /* ProfileViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewHeader.swift; sourceTree = "<group>"; };
+		3102F725278A593300E2DF3D /* ProfileFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFooter.swift; sourceTree = "<group>"; };
+		3102F727278A59A100E2DF3D /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		3102F729278A59AF00E2DF3D /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		3102F72B278A59E100E2DF3D /* CustomInputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputAccessoryView.swift; sourceTree = "<group>"; };
+		3102F72D278A5A0400E2DF3D /* VictoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryCell.swift; sourceTree = "<group>"; };
+		3102F72F278A5A1A00E2DF3D /* MainHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeaderView.swift; sourceTree = "<group>"; };
+		3102F731278A5A7900E2DF3D /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		3102F733278BA7C300E2DF3D /* Victory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Victory.swift; sourceTree = "<group>"; };
+		3102F77D278FB6A400E2DF3D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		3102F77F278FB85500E2DF3D /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		3102F7812790C14500E2DF3D /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		3102F78727910CDE00E2DF3D /* ViewProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProfileController.swift; sourceTree = "<group>"; };
+		3102F78927914D5F00E2DF3D /* VictoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryController.swift; sourceTree = "<group>"; };
+		3102F78B27914D6700E2DF3D /* ActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
+		3102F78E279206A900E2DF3D /* UserVictoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVictoriesController.swift; sourceTree = "<group>"; };
+		3102F79027920D5200E2DF3D /* VictoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryViewModel.swift; sourceTree = "<group>"; };
+		3102F792279212A300E2DF3D /* AdminViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewModel.swift; sourceTree = "<group>"; };
+		3102F794279213E400E2DF3D /* VictoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryService.swift; sourceTree = "<group>"; };
+		3102F796279214D000E2DF3D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3102F79827921B7000E2DF3D /* GoalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalService.swift; sourceTree = "<group>"; };
+		3102F79A27921B7D00E2DF3D /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		3102F7A827962E4800E2DF3D /* NewVictory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVictory.swift; sourceTree = "<group>"; };
+		3102F7AA27963DD700E2DF3D /* VictoryDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryDetailsController.swift; sourceTree = "<group>"; };
+		3102F7AC27963E0000E2DF3D /* ViewVictoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewVictoryController.swift; sourceTree = "<group>"; };
+		3102F7AE2796466100E2DF3D /* fireworks.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = fireworks.mp4; path = ../../../fireworks.mp4; sourceTree = "<group>"; };
 		31161B212788F3AB00D35115 /* VictoryHQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictoryHQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31161B242788F3AB00D35115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31161B262788F3AB00D35115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31161B282788F3AB00D35115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		31161B2B2788F3AB00D35115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31161B2D2788F3AD00D35115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31161B302788F3AD00D35115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +132,38 @@
 		31161B412788F3AD00D35115 /* VictoryHQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VictoryHQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31161B452788F3AD00D35115 /* VictoryHQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryHQUITests.swift; sourceTree = "<group>"; };
 		31161B472788F3AD00D35115 /* VictoryHQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryHQUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31161B542788F59600D35115 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		31161B562788F5C300D35115 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		31161B582788F5CD00D35115 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		31161B5A2788F5D600D35115 /* NewVictoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVictoryController.swift; sourceTree = "<group>"; };
+		31161B5C2788F62D00D35115 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		31161B5E2788F64000D35115 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		31161B662788F6AB00D35115 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		31161B682788F6D200D35115 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		31161B6A2788FBAD00D35115 /* GroupRulesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRulesController.swift; sourceTree = "<group>"; };
+		31161B6C278A0AA400D35115 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31161B6E278A20BA00D35115 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		31161B70278A212700D35115 /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
+		31161B72278A287F00D35115 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3124F09527CD761800F3E0B9 /* VictoryHQ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VictoryHQ.entitlements; sourceTree = "<group>"; };
+		31564CB827B1F67300011730 /* WaitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitListView.swift; sourceTree = "<group>"; };
+		31564CBA27B2A36400011730 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		31564CBC27B3826000011730 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		31564CDD27BF024400011730 /* CelebrateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrateController.swift; sourceTree = "<group>"; };
+		3195846027AB86AA003A7862 /* RespectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespectCell.swift; sourceTree = "<group>"; };
+		3195846227AB86DE003A7862 /* Respect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respect.swift; sourceTree = "<group>"; };
+		31AE01F627E957AC000E005B /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		31B1E8AD280CE776008E2B13 /* RequestsEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsEmptyView.swift; sourceTree = "<group>"; };
+		31C6077527AF593700BE4F98 /* RequestsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsController.swift; sourceTree = "<group>"; };
+		31C6077727AF599000BE4F98 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		3AEF892F988F9BDFCEDA7949 /* Pods-VictoryHQTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoryHQTests.debug.xcconfig"; path = "Target Support Files/Pods-VictoryHQTests/Pods-VictoryHQTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49480B51B1BB98BDA97576C2 /* Pods_VictoryHQ_VictoryHQUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VictoryHQ_VictoryHQUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0A155755A4E4F9EDCEEFE0 /* Pods_VictoryHQTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VictoryHQTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D795D1AB5F43B1E0C23406F /* Pods-VictoryHQTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoryHQTests.release.xcconfig"; path = "Target Support Files/Pods-VictoryHQTests/Pods-VictoryHQTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C3B0B53AE03CDB667E8EFA3 /* Pods-VictoryHQ-VictoryHQUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoryHQ-VictoryHQUITests.release.xcconfig"; path = "Target Support Files/Pods-VictoryHQ-VictoryHQUITests/Pods-VictoryHQ-VictoryHQUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFB954E40BAD9F3B42E46AB5 /* Pods_VictoryHQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VictoryHQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62A4F6EAD2F048502B8375F /* Pods-VictoryHQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoryHQ.debug.xcconfig"; path = "Target Support Files/Pods-VictoryHQ/Pods-VictoryHQ.debug.xcconfig"; sourceTree = "<group>"; };
+		CF292FB998F5AC7FD22D98F1 /* Pods-VictoryHQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VictoryHQ.release.xcconfig"; path = "Target Support Files/Pods-VictoryHQ/Pods-VictoryHQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D825024EB1701F4C813C20B4 /* Pods_VictoryHQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5BB7B820599A80821C8B48 /* Pods_VictoryHQTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF375A8CF88C14E1AE6A1814 /* Pods_VictoryHQ_VictoryHQUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +201,8 @@
 				31161B3A2788F3AD00D35115 /* VictoryHQTests */,
 				31161B442788F3AD00D35115 /* VictoryHQUITests */,
 				31161B222788F3AB00D35115 /* Products */,
+				803D67A623CE90E03D5BBF86 /* Pods */,
+				5048F304D68BFB96B6F1A731 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +219,22 @@
 		31161B232788F3AB00D35115 /* VictoryHQ */ = {
 			isa = PBXGroup;
 			children = (
+				3124F09527CD761800F3E0B9 /* VictoryHQ.entitlements */,
 				31161B242788F3AB00D35115 /* AppDelegate.swift */,
 				31161B262788F3AB00D35115 /* SceneDelegate.swift */,
-				31161B282788F3AB00D35115 /* ViewController.swift */,
+				31564CBC27B3826000011730 /* PushNotificationManager.swift */,
+				31161B652788F69F00D35115 /* Model */,
+				31161B632788F68300D35115 /* Controller */,
+				31161B622788F67B00D35115 /* ViewModel */,
+				31161B612788F66800D35115 /* View */,
+				31161B602788F66100D35115 /* API */,
+				31161B72278A287F00D35115 /* Extensions.swift */,
+				3102F7AE2796466100E2DF3D /* fireworks.mp4 */,
 				31161B2A2788F3AB00D35115 /* Main.storyboard */,
 				31161B2D2788F3AD00D35115 /* Assets.xcassets */,
 				31161B2F2788F3AD00D35115 /* LaunchScreen.storyboard */,
 				31161B322788F3AD00D35115 /* Info.plist */,
+				31161B6C278A0AA400D35115 /* GoogleService-Info.plist */,
 			);
 			path = VictoryHQ;
 			sourceTree = "<group>";
@@ -127,6 +256,120 @@
 			path = VictoryHQUITests;
 			sourceTree = "<group>";
 		};
+		31161B602788F66100D35115 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3102F71F278A313700E2DF3D /* AuthService.swift */,
+				31564CBA27B2A36400011730 /* PushNotificationSender.swift */,
+				3102F794279213E400E2DF3D /* VictoryService.swift */,
+				3102F79827921B7000E2DF3D /* GoalService.swift */,
+				3102F79A27921B7D00E2DF3D /* UserService.swift */,
+				3102F796279214D000E2DF3D /* Constants.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		31161B612788F66800D35115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31161B70278A212700D35115 /* InputContainerView.swift */,
+				3102F71C278A2AA700E2DF3D /* CustomTextField.swift */,
+				31B1E8AD280CE776008E2B13 /* RequestsEmptyView.swift */,
+				3102F723278A588D00E2DF3D /* ProfileViewHeader.swift */,
+				3102F72F278A5A1A00E2DF3D /* MainHeaderView.swift */,
+				3102F725278A593300E2DF3D /* ProfileFooter.swift */,
+				3102F727278A59A100E2DF3D /* MessageCell.swift */,
+				3102F729278A59AF00E2DF3D /* ConversationCell.swift */,
+				31C6077727AF599000BE4F98 /* RequestCell.swift */,
+				3102F72D278A5A0400E2DF3D /* VictoryCell.swift */,
+				3195846027AB86AA003A7862 /* RespectCell.swift */,
+				3102F77F278FB85500E2DF3D /* ProfileCell.swift */,
+				3102F72B278A59E100E2DF3D /* CustomInputAccessoryView.swift */,
+				31564CB827B1F67300011730 /* WaitListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31161B622788F67B00D35115 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				31161B6E278A20BA00D35115 /* LoginViewModel.swift */,
+				3102F721278A322800E2DF3D /* RegistrationViewModel.swift */,
+				3102F77D278FB6A400E2DF3D /* ProfileViewModel.swift */,
+				3102F792279212A300E2DF3D /* AdminViewModel.swift */,
+				3102F79027920D5200E2DF3D /* VictoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31161B632788F68300D35115 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31161B642788F68D00D35115 /* Authentication */,
+				31161B582788F5CD00D35115 /* MainController.swift */,
+				31564CDD27BF024400011730 /* CelebrateController.swift */,
+				31161B542788F59600D35115 /* ChatController.swift */,
+				31161B5A2788F5D600D35115 /* NewVictoryController.swift */,
+				3102F731278A5A7900E2DF3D /* ConversationsController.swift */,
+				31C6077527AF593700BE4F98 /* RequestsController.swift */,
+				31161B562788F5C300D35115 /* ProfileController.swift */,
+				3102F78727910CDE00E2DF3D /* ViewProfileController.swift */,
+				3102F78927914D5F00E2DF3D /* VictoryController.swift */,
+				3102F78E279206A900E2DF3D /* UserVictoriesController.swift */,
+				3102F78B27914D6700E2DF3D /* ActivityController.swift */,
+				3102F7AA27963DD700E2DF3D /* VictoryDetailsController.swift */,
+				3102F7AC27963E0000E2DF3D /* ViewVictoryController.swift */,
+				3102F7812790C14500E2DF3D /* EditProfileController.swift */,
+				31AE01F627E957AC000E005B /* SettingsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31161B642788F68D00D35115 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				31161B5E2788F64000D35115 /* RegistrationController.swift */,
+				31161B5C2788F62D00D35115 /* LoginController.swift */,
+				31161B6A2788FBAD00D35115 /* GroupRulesController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		31161B652788F69F00D35115 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31161B662788F6AB00D35115 /* Message.swift */,
+				3102F733278BA7C300E2DF3D /* Victory.swift */,
+				3102F7A827962E4800E2DF3D /* NewVictory.swift */,
+				31161B682788F6D200D35115 /* User.swift */,
+				3195846227AB86DE003A7862 /* Respect.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5048F304D68BFB96B6F1A731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB954E40BAD9F3B42E46AB5 /* Pods_VictoryHQ.framework */,
+				49480B51B1BB98BDA97576C2 /* Pods_VictoryHQ_VictoryHQUITests.framework */,
+				6A0A155755A4E4F9EDCEEFE0 /* Pods_VictoryHQTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		803D67A623CE90E03D5BBF86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C62A4F6EAD2F048502B8375F /* Pods-VictoryHQ.debug.xcconfig */,
+				CF292FB998F5AC7FD22D98F1 /* Pods-VictoryHQ.release.xcconfig */,
+				0E49BD8CF330E3F4555D13EE /* Pods-VictoryHQ-VictoryHQUITests.debug.xcconfig */,
+				9C3B0B53AE03CDB667E8EFA3 /* Pods-VictoryHQ-VictoryHQUITests.release.xcconfig */,
+				3AEF892F988F9BDFCEDA7949 /* Pods-VictoryHQTests.debug.xcconfig */,
+				8D795D1AB5F43B1E0C23406F /* Pods-VictoryHQTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +377,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31161B4B2788F3AD00D35115 /* Build configuration list for PBXNativeTarget "VictoryHQ" */;
 			buildPhases = (
+				4DD1105F6EDD906180C73CD3 /* [CP] Check Pods Manifest.lock */,
 				31161B1D2788F3AB00D35115 /* Sources */,
 				31161B1E2788F3AB00D35115 /* Frameworks */,
 				31161B1F2788F3AB00D35115 /* Resources */,
+				8E174FBE95DDB956D7A94B8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +396,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31161B4E2788F3AD00D35115 /* Build configuration list for PBXNativeTarget "VictoryHQTests" */;
 			buildPhases = (
+				F70536E4838850F3456FF187 /* [CP] Check Pods Manifest.lock */,
 				31161B332788F3AD00D35115 /* Sources */,
 				31161B342788F3AD00D35115 /* Frameworks */,
 				31161B352788F3AD00D35115 /* Resources */,
@@ -169,9 +415,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31161B512788F3AD00D35115 /* Build configuration list for PBXNativeTarget "VictoryHQUITests" */;
 			buildPhases = (
+				BA57259C43DEB8D8DE4BAC6A /* [CP] Check Pods Manifest.lock */,
 				31161B3D2788F3AD00D35115 /* Sources */,
 				31161B3E2788F3AD00D35115 /* Frameworks */,
 				31161B3F2788F3AD00D35115 /* Resources */,
+				1E0E43116AA6E4D88DD6EEC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +479,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3102F7AF279648D600E2DF3D /* fireworks.mp4 in Resources */,
 				31161B312788F3AD00D35115 /* LaunchScreen.storyboard in Resources */,
+				31161B6D278A0AA400D35115 /* GoogleService-Info.plist in Resources */,
 				31161B2E2788F3AD00D35115 /* Assets.xcassets in Resources */,
 				31161B2C2788F3AB00D35115 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +503,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E0E43116AA6E4D88DD6EEC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VictoryHQ-VictoryHQUITests/Pods-VictoryHQ-VictoryHQUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VictoryHQ-VictoryHQUITests/Pods-VictoryHQ-VictoryHQUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VictoryHQ-VictoryHQUITests/Pods-VictoryHQ-VictoryHQUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD1105F6EDD906180C73CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VictoryHQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E174FBE95DDB956D7A94B8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VictoryHQ/Pods-VictoryHQ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VictoryHQ/Pods-VictoryHQ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VictoryHQ/Pods-VictoryHQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA57259C43DEB8D8DE4BAC6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VictoryHQ-VictoryHQUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F70536E4838850F3456FF187 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VictoryHQTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31161B1D2788F3AB00D35115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31161B292788F3AB00D35115 /* ViewController.swift in Sources */,
+				3102F795279213E400E2DF3D /* VictoryService.swift in Sources */,
+				3102F732278A5A7900E2DF3D /* ConversationsController.swift in Sources */,
+				31161B5B2788F5D600D35115 /* NewVictoryController.swift in Sources */,
+				31AE01F727E957AC000E005B /* SettingsController.swift in Sources */,
+				3102F722278A322800E2DF3D /* RegistrationViewModel.swift in Sources */,
+				31161B572788F5C300D35115 /* ProfileController.swift in Sources */,
+				3102F7A927962E4800E2DF3D /* NewVictory.swift in Sources */,
+				31161B5F2788F64000D35115 /* RegistrationController.swift in Sources */,
+				3102F72E278A5A0400E2DF3D /* VictoryCell.swift in Sources */,
+				3102F7AB27963DD700E2DF3D /* VictoryDetailsController.swift in Sources */,
+				3102F78A27914D5F00E2DF3D /* VictoryController.swift in Sources */,
+				3102F79927921B7000E2DF3D /* GoalService.swift in Sources */,
+				3102F77E278FB6A400E2DF3D /* ProfileViewModel.swift in Sources */,
+				3102F71D278A2AA700E2DF3D /* CustomTextField.swift in Sources */,
+				3102F79127920D5200E2DF3D /* VictoryViewModel.swift in Sources */,
+				31564CBD27B3826000011730 /* PushNotificationManager.swift in Sources */,
+				3102F726278A593300E2DF3D /* ProfileFooter.swift in Sources */,
+				31C6077827AF599000BE4F98 /* RequestCell.swift in Sources */,
+				3102F724278A588D00E2DF3D /* ProfileViewHeader.swift in Sources */,
+				3102F7822790C14500E2DF3D /* EditProfileController.swift in Sources */,
+				31B1E8AE280CE776008E2B13 /* RequestsEmptyView.swift in Sources */,
 				31161B252788F3AB00D35115 /* AppDelegate.swift in Sources */,
+				3102F730278A5A1A00E2DF3D /* MainHeaderView.swift in Sources */,
 				31161B272788F3AB00D35115 /* SceneDelegate.swift in Sources */,
+				31161B5D2788F62D00D35115 /* LoginController.swift in Sources */,
+				31161B672788F6AB00D35115 /* Message.swift in Sources */,
+				3102F72A278A59AF00E2DF3D /* ConversationCell.swift in Sources */,
+				31564CB927B1F67300011730 /* WaitListView.swift in Sources */,
+				3102F78827910CDE00E2DF3D /* ViewProfileController.swift in Sources */,
+				3195846127AB86AA003A7862 /* RespectCell.swift in Sources */,
+				3102F78F279206A900E2DF3D /* UserVictoriesController.swift in Sources */,
+				3102F734278BA7C300E2DF3D /* Victory.swift in Sources */,
+				31161B6F278A20BA00D35115 /* LoginViewModel.swift in Sources */,
+				3102F72C278A59E100E2DF3D /* CustomInputAccessoryView.swift in Sources */,
+				31564CBB27B2A36500011730 /* PushNotificationSender.swift in Sources */,
+				31564CDE27BF024400011730 /* CelebrateController.swift in Sources */,
+				31161B71278A212700D35115 /* InputContainerView.swift in Sources */,
+				31161B73278A287F00D35115 /* Extensions.swift in Sources */,
+				3102F793279212A300E2DF3D /* AdminViewModel.swift in Sources */,
+				3102F7AD27963E0000E2DF3D /* ViewVictoryController.swift in Sources */,
+				31161B592788F5CD00D35115 /* MainController.swift in Sources */,
+				31161B6B2788FBAD00D35115 /* GroupRulesController.swift in Sources */,
+				3102F720278A313700E2DF3D /* AuthService.swift in Sources */,
+				3102F79B27921B7D00E2DF3D /* UserService.swift in Sources */,
+				31161B552788F59600D35115 /* ChatController.swift in Sources */,
+				31161B692788F6D200D35115 /* User.swift in Sources */,
+				3102F780278FB85500E2DF3D /* ProfileCell.swift in Sources */,
+				3102F78C27914D6700E2DF3D /* ActivityController.swift in Sources */,
+				3102F797279214D000E2DF3D /* Constants.swift in Sources */,
+				3195846327AB86DE003A7862 /* Respect.swift in Sources */,
+				3102F728278A59A100E2DF3D /* MessageCell.swift in Sources */,
+				31C6077627AF593700BE4F98 /* RequestsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,14 +836,20 @@
 		};
 		31161B4C2788F3AD00D35115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62A4F6EAD2F048502B8375F /* Pods-VictoryHQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VictoryHQ/VictoryHQ.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S6V29A8HUW;
+				DEVELOPMENT_TEAM = 7HTV4A5W6Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VictoryHQ/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Victory HQ";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For profile images and victory images";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "For profile images and victory images";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -451,25 +859,33 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.john.VictoryHQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
 		31161B4D2788F3AD00D35115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF292FB998F5AC7FD22D98F1 /* Pods-VictoryHQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VictoryHQ/VictoryHQ.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S6V29A8HUW;
+				DEVELOPMENT_TEAM = 7HTV4A5W6Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VictoryHQ/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Victory HQ";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For profile images and victory images";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "For profile images and victory images";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -479,17 +895,20 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.john.VictoryHQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
 		31161B4F2788F3AD00D35115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEF892F988F9BDFCEDA7949 /* Pods-VictoryHQTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +934,7 @@
 		};
 		31161B502788F3AD00D35115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D795D1AB5F43B1E0C23406F /* Pods-VictoryHQTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +960,7 @@
 		};
 		31161B522788F3AD00D35115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E49BD8CF330E3F4555D13EE /* Pods-VictoryHQ-VictoryHQUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +984,7 @@
 		};
 		31161B532788F3AD00D35115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3B0B53AE03CDB667E8EFA3 /* Pods-VictoryHQ-VictoryHQUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
