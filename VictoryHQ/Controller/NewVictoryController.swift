@@ -32,7 +32,7 @@ class NewVictoryController: UIViewController, UINavigationControllerDelegate {
     
     var victoryLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "HelveticaNeue-Medium", size: 14)
+        label.font = UIFont(name: "HelveticaNeue-Bold", size: 14)
         label.text = "You"
         label.textAlignment = .center
         return label
@@ -80,9 +80,6 @@ class NewVictoryController: UIViewController, UINavigationControllerDelegate {
 //        keyboardToolbar.barTintColor = UIColor.systemOrange
         keyboardToolbar.items = [self.postButtonKeyboard]
         keyboardToolbar.setBackgroundImage(UIImage(named: "toolbar5"), forToolbarPosition: .bottom, barMetrics: .default)
-       
-
-
 //        keyboardToolbar.layer.opacity = 0.65
         keyboardToolbar.layer.borderColor = UIColor.white.cgColor
         return keyboardToolbar
@@ -230,8 +227,6 @@ class NewVictoryController: UIViewController, UINavigationControllerDelegate {
         guard let currentUser = currentUser else {
             return
         }
-
-
         guard let victoryText = victoryTextView.text else { return }
         var newVictory = NewVictory(victoryText: victoryText)
         
@@ -313,7 +308,6 @@ class NewVictoryController: UIViewController, UINavigationControllerDelegate {
     
     @objc func addDetailsTapped(_ : UIButton) {
         self.victoryLabel.text = "Details"
-        self.detailTextView.font = UIFont(name: "HelveticaNeue", size: 16)
         self.detailTextView.isHidden = false
         self.addDetailsButton.isHidden = true
         self.backButton.isHidden = false
@@ -322,7 +316,6 @@ class NewVictoryController: UIViewController, UINavigationControllerDelegate {
         self.victoryTextView.isHidden = true
         self.addPhotoLabel.isHidden = false
         self.detailTextView.becomeFirstResponder()
-        
     }
     
     @objc func backButtonTapped() {

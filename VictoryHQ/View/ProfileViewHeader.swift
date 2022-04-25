@@ -76,8 +76,6 @@ class ProfileHeader: UIView {
         button.addTarget(ProfileHeader.self, action: #selector(handleTwitterTapped), for: .touchUpInside)
         let tap = UITapGestureRecognizer(target: self, action: #selector(handleTwitterTapped))
         button.addGestureRecognizer(tap)
-     
-        
         return button
     }()
     
@@ -89,19 +87,13 @@ class ProfileHeader: UIView {
     }()
     
     var buttons = [UIButton]()
-    
-    
 
-
-    
     // MARK: - Lifecycle
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         setGradientBackground(colorTop: .systemPurple, colorBottom: .systemOrange)
-//        configureGradientLayer()
         configureUI()
-        print("This is the height init: \(self.viewHeight)")
         isUserInteractionEnabled = true
         
     }
@@ -109,10 +101,9 @@ class ProfileHeader: UIView {
     override func layoutSubviews() {
         super.layoutSubviews()
         gradient.frame = bounds
-isUserInteractionEnabled = true
+        isUserInteractionEnabled = true
         let tap = UITapGestureRecognizer(target: self, action: #selector(handleInstagramTapped))
         self.addGestureRecognizer(tap)
-        print("This is the height subviews: \(self.viewHeight)")
     }
     
     
@@ -126,8 +117,6 @@ isUserInteractionEnabled = true
         gradient.colors = [UIColor.systemPurple.cgColor, UIColor.systemOrange.cgColor]
         gradient.locations = [0, 1]
         layer.addSublayer(gradient)
-       
-        
     }
     
     func configureUI() {
@@ -137,30 +126,20 @@ isUserInteractionEnabled = true
         profileImageView.centerX(inView: self)
         profileImageView.anchor(top: topAnchor, paddingTop: 96)
         
-
-        
         addSubview(stack)
         stack.centerX(inView: self)
         stack.anchor(top: profileImageView.bottomAnchor, paddingTop: 16)
         
-       
         let tap = UITapGestureRecognizer(target: self, action: #selector(handleInstagramTapped))
-
         self.addGestureRecognizer(tap)
-        
-    
-        
     }
     
     func setGradientBackground(colorTop: UIColor, colorBottom: UIColor) {
-  
         gradient.colors = [colorBottom.cgColor, colorTop.cgColor]
         gradient.startPoint = CGPoint(x: 0.5, y: 1.0)
         gradient.endPoint = CGPoint(x: 0.5, y: 0.0)
         gradient.locations = [0, 1]
-//        gradient.frame = bounds
         layer.addSublayer(gradient)
-//        layer.insertSublayer(gradientLayer, at: 0)
     }
     
     func populateUserData() {
@@ -168,7 +147,9 @@ isUserInteractionEnabled = true
             return
         }
         fullnameLabel.text = user.fullName
-        usernameLabel.text = user.username
+        if let username = user.username {
+            usernameLabel.text = "@\(username)"
+        }
     
         if let url = user.profileImageUrl {
             profileImageView.sd_setImage(with: url, completed: nil)
@@ -191,7 +172,6 @@ isUserInteractionEnabled = true
     }
     
     @objc func handleTwitterTapped() {
-        print("Twitter button tapped")
         guard let user = user else {
             return
         }
@@ -201,7 +181,6 @@ isUserInteractionEnabled = true
     }
     
     @objc func handleInstagramTapped() {
-        print("Instagram button tapped")
         guard let user = user else {
             return
         }
